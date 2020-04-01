@@ -1,0 +1,100 @@
+body{
+    margin-left: 2em;
+    margin-right: 2em;
+    font-family: Garamond;
+    letter-spacing: 1.1px;
+    color: darkgrey;
+    background-color: black;
+}
+
+h3{
+    color: rgb(160,0,0);
+    font-size: 2em;
+}
+
+.link{
+    color: black;
+}
+
+a:link{
+    color: rgb(160,0,0);
+}
+
+header{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-content: flex-start;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    background-color: rgb(80,0,0);
+    color: lightgrey;
+}
+
+article{
+    border-left: solid;
+    border-right: solid;
+    border-color: rgb(80,0,0);  
+}
+
+.info{
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+.logoContainer{
+    display: flex;
+    flex-direction: row;
+}
+
+.logo{
+    width: 95%;
+    padding-top: 1em;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.albumContainer{
+    display: flex;
+    flex-direction: column;
+}
+
+.albumGucciMan, .albumJanne{
+    width: 60%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.albumJanne{
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+.releasesHeader{
+    text-align: center;
+}
+
+.infoHead{
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.textCategory{
+    margin-bottom: 2em;
+}
+
+.textTitle{
+    color: rgb(160,0,0);
+}
+
+footer{
+    font-style: italic;
+}
+
+.name, .approved{
+    text-align: center;
+}
+
+
+
+

@@ -29,6 +29,7 @@ header{
     padding-right: 1.5em;
     background-color: rgb(80,0,0);
     color: lightgrey;
+    font-weight: bold;
 }
 
 article{
